@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXPLORE"
+        android:textColor="#3DA311"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/search"
+        ></ImageView>
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Explore schemes"
+        ></EditText>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/heart"
+            ></ImageView>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/filter"
+            android:layout_marginLeft="10dp"
+            ></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="schemes"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="77dp"
+            android:layout_height="40dp"
+            android:text="view all"
+            android:layout_marginLeft="150dp">
+
+
+
+        </androidx.appcompat.widget.AppCompatButton>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
